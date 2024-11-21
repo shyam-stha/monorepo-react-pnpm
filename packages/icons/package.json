@@ -1,0 +1,56 @@
+{
+  "name": "@shared/icons",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    "./fill": {
+      "import": "./dist/fill/index.js",
+      "require": "./dist/fill/index.cjs",
+      "types": "./dist/fill/index.d.ts"
+    },
+    "./medium": {
+      "import": "./dist/medium/index.js",
+      "require": "./dist/medium/index.cjs",
+      "types": "./dist/medium/index.d.ts"
+    },
+    "./line": {
+      "import": "./dist/line/index.js",
+      "require": "./dist/line/index.cjs",
+      "types": "./dist/line/index.d.ts"
+    },
+    "./expressive": {
+      "import": "./dist/expressive/index.js",
+      "require": "./dist/expressive/index.cjs",
+      "types": "./dist/expressive/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsup",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "tsup": "^8.3.5",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.11.0",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.5"
+  }
+}
