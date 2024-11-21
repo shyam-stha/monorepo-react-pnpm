@@ -1,0 +1,14 @@
+.container {
+  height: 80dvh;
+  width: 100dvw;
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box-container {
+  height: 600px;
+  width: 800px;
+  transform: rotate(45deg);
+}
