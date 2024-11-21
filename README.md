@@ -40,7 +40,7 @@ Ensure you have the following installed:
 
 ## Steps to Set Up the Project
 
-1. **Clone the Repository**:
+1. **Clone the Repository & Setup**:
 
    ```bash
    git clone https://github.com/your-repo/monorepo-vite-pnpm.git
@@ -50,11 +50,12 @@ Ensure you have the following installed:
 
 2. **Start Development Server**:
 
+    - To start Website app:
     ```bash
-    // To start Website app:
     pnpm site:dev
-
-    // To start Admin Dashboard app:
+    ```
+    - To start Admin Dashboard app:
+    ```bash
     pnpm admin:dev
     ```
 
@@ -72,7 +73,7 @@ Ensure you have the following installed:
 
 4. **Testing**:
     
+    - For testing use below command
     ```bash
-    // For testing use below command
     pnpm test:all
     ```
