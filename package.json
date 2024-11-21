@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-vite-pnpm",
+  "version": "1.0.0",
+  "description": "This is a monorepo managed using pnpm workspace with vite react.",
+  "main": "index.js",
+  "scripts": {
+    "local:setup": "pnpm install && pnpm utils:build && pnpm icons:build && pnpm ui:build",
+    "ui:build": "pnpm --filter @shared/ui build",
+    "utils:build": "pnpm --filter @shared/utils build",
+    "icons:build": "pnpm --filter @shared/icons build",
+    "site:dev": "pnpm --filter website dev",
+    "admin:dev": "pnpm --filter admin-dashboard dev",
+    "test:all": "pnpm -r test"
+  },
+  "keywords": [],
+  "author": "Shyam Shrestha",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^2.1.5"
+  }
+}
