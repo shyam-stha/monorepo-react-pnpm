@@ -29,7 +29,7 @@ monorepo-vite-pnpm/
 ├── pnpm-workspace.yaml   # Defines workspace structure
 ├── package.json          # Root package configuration
 
-
+```
 
 Ensure you have the following installed:
 
@@ -46,6 +46,7 @@ Ensure you have the following installed:
    git clone https://github.com/your-repo/monorepo-vite-pnpm.git
    cd monorepo-vite-pnpm
    pnpm local:setup
+   ```
 
 2. **Start Development Server**:
 
@@ -55,6 +56,7 @@ Ensure you have the following installed:
 
     // To start Admin Dashboard app:
     pnpm admin:dev
+    ```
 
 3. **Scripts**:
     
@@ -66,9 +68,11 @@ Ensure you have the following installed:
     pnpm site:dev	// Starts the development server for the website.
     pnpm admin:dev	// Starts the development server for the admin dashboard.
     pnpm test:all	// Runs tests for all packages and apps.
+    ```
 
 4. **Testing**:
     
     ```bash
     // For testing use below command
     pnpm test:all
+    ```
